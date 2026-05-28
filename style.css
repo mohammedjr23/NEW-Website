@@ -1,0 +1,105 @@
+body{
+  background-image: url("desk-setup-for-website-background-cocbwu6ugm1jmpeo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+header{
+  background-color: rgba(0, 0, 0, 0.877);
+  text-align: center;
+  padding: 15px;
+  color: white;
+  border-bottom-style:groove;
+  border-bottom-color: gold;
+  border-bottom-width: 5px;
+}
+nav{
+  background-color: rgba(255, 255, 255, 0.877);
+padding:10px ;
+text-align: center;
+}
+nav a{
+  text-decoration: none;
+  margin:15px;
+  color: black;
+}
+button{
+  background-color:rgb(235, 195, 21); 
+  transform: scale(1.20);
+}
+button:hover{
+  background-color: cyan;
+  transition: 0.3s;
+  transform: scale(1.25);
+}
+button:active{
+  background-color: rgb(17, 16, 16);
+}
+.about{
+  height: 350px;
+  width: 900px;
+  background-color: rgba(0, 0, 0, 0.514);
+  margin: 45px auto;
+  padding: 20px;
+  border-radius:20px;
+  
+}
+.about img{
+  width:350px;
+  height:300px;
+  display: block;
+  position:relative;
+  bottom: 100px;
+  left: 500px;
+}
+.about:hover{
+  background-color: rgb(0, 0, 0);
+  transition: 0.3s;
+  transform: scale(1.03);
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 65px;
+  gap: 20px;
+}
+.cake{
+ background-color: rgba(0, 0, 0, 0.514);
+  padding: 15 px;
+  border-radius:20px;
+  text-align: center;
+   border: 1px gold solid;
+}
+.container :hover{
+   background-color: rgb(0, 0, 0);
+  transition: 0.3s;
+  transform: scale(1.03);
+}
+.container2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin: 65px;
+  gap: 20px;
+}
+.hi{
+  background-color: rgba(0, 0, 0, 0.514);
+  padding: 15 px;
+  border-radius:20px;
+ 
+}
+.container2 :hover{
+   background-color: rgb(0, 0, 0);
+  transition: 0.3s;
+  transform: scale(1.03);
+}
+footer{
+  background-color: rgba(0, 0, 0, 0.877);
+  text-align: center;
+  padding: 20px;
+}
+.hi h2,h3{
+  text-align: center;
+}
+

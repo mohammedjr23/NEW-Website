@@ -1,0 +1,56 @@
+body{
+  background-image: url("desk-setup-for-website-background-cocbwu6ugm1jmpeo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+header{
+  background-color: rgba(0, 0, 0, 0.877);
+  text-align: center;
+  padding: 15px;
+  color: white;
+  border-bottom-style:groove;
+  border-bottom-color: gold;
+  border-bottom-width: 5px;
+
+}
+nav{
+  background-color: rgba(255, 255, 255, 0.877);
+padding:10px ;
+text-align: center;
+}
+nav a{
+  text-decoration: none;
+  margin:10px;
+  color: black;
+  
+}
+button{
+  background-color:rgb(235, 195, 21); 
+  transform: scale(1.20);
+}
+button:hover{
+  background-color: cyan;
+  transition: 0.3s;
+  transform: scale(1.25);
+}
+button:active{
+  background-color: rgb(17, 16, 16);
+}
+main{
+    text-align: center;
+      color: black;
+}
+ label,input,textarea{
+    margin-bottom:10px;
+    padding:10px;
+    
+}
+
+footer{
+  background-color: rgba(0, 0, 0, 0.877);
+  text-align: center;
+  padding: 20px;
+}
